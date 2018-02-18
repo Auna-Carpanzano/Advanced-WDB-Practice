@@ -22,3 +22,7 @@ div.photo {
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+
+div.photo * {
+  box-sizing: border-box;
+}
