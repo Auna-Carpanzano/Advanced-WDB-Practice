@@ -5,3 +5,9 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.header {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #34495e;
+}
