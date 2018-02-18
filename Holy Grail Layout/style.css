@@ -1,10 +1,14 @@
 body {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
 }
 
 header {
-  flex: 0 0 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #2ecc71;
+  flex-basis: 100px;
 }
