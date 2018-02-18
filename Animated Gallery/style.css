@@ -26,3 +26,9 @@ div.photo {
 div.photo * {
   box-sizing: border-box;
 }
+
+div.photo img {
+  max-width: 100%;
+  vertical-align: top;
+  height: 210px;
+}
