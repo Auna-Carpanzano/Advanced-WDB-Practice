@@ -80,6 +80,7 @@ div.photo.green i {
 
 div.photo:hover img {
   opacity: 0.3;
+  filter: grayscale(100%);
 }
 
 div.photo * {
