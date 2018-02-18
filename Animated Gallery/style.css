@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
