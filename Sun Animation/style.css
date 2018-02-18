@@ -9,3 +9,10 @@ body {
   height: 200px;
   border-radius: 50%;
 }
+
+.grass {
+  background-color: #27ae60;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+}
