@@ -69,3 +69,11 @@ div.photo.red {
 div.photo.red i {
   color: #e74c3c;
 }
+
+div.photo.green {
+  background-color: #16a085;
+}
+
+div.photo.green i {
+  color: #16a085;
+}
