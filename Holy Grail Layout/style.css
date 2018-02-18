@@ -12,3 +12,9 @@ header {
   background-color: #2ecc71;
   flex-basis: 100px;
 }
+
+main {
+  display: flex;
+  flex: 0 0 100%;
+  min-height: 800px;
+}
