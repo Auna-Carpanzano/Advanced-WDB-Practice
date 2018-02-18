@@ -86,3 +86,7 @@ div.photo:hover img {
 div.photo * {
   transition: all .5s ease-in-out;
 }
+
+div.photo:hover i {
+  transform: scale(2);
+}
