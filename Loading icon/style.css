@@ -11,15 +11,35 @@
   border-top-color: #2980b9;
   border-bottom-color: #27ae60;
   border-radius: 50%;
-  animation: spin 2s linear infinite;
+  animation: spin 4s linear infinite;
 }
 
 @keyframes spin {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
+    border-top-color: #2980b9;
+    border-bottom-color: #2980b9;
+  }
+  
+  25% {
+    border-top-color: #27ae60;
+    border-bottom-color: #27ae60;
+  }
+  
+  50% {
+    transform: rotate(360deg) scale(1.5);
+    border-top-color: #9b59b6;
+    border-bottom-color: #9b59b6;
+  }
+  
+  75% {
+    border-top-color: #c0392b;
+    border-bottom-color: #c0392b;
   }
   
   100% {
-    transform: rotate(360deg);
+    transform: rotate(720deg) scale(1);
+    border-top-color: #2980b9;
+    border-bottom-color: #2980b9;
   }
 }
