@@ -81,3 +81,7 @@ div.photo.green i {
 div.photo:hover img {
   opacity: 0.3;
 }
+
+div.photo * {
+  transition: all 1s ease-in-out;
+}
