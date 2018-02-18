@@ -53,3 +53,12 @@ div.photo a {
   bottom: 0;
   position: absolute;
 }
+
+div.photo.blue {
+  background-color: #34495e;
+}
+
+div.photo.blue i {
+  color: #34495e;
+}
+
