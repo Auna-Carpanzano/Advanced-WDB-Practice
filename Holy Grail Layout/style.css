@@ -18,3 +18,8 @@ main {
   flex: 0 0 100%;
   min-height: 800px;
 }
+
+article {
+  flex: 4 0 60%;
+  background-color: #ecf0f1;
+}
