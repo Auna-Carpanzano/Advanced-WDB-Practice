@@ -23,3 +23,8 @@ article {
   flex: 4 0 60%;
   background-color: #ecf0f1;
 }
+
+aside {
+  flex: 1 1 20%;
+  background-color: #95a5a6;
+}
