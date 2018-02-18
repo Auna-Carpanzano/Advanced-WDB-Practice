@@ -11,3 +11,14 @@
   font-family: "Raleway", sans-serif;
   color: #34495e;
 }
+
+div.photo {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 300px;
+  flex: 0 0 33.33%;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
