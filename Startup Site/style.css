@@ -191,3 +191,11 @@ header nav li {
   line-height: 1.5;
   margin: 40px 0 25px;
 }
+
+.contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
