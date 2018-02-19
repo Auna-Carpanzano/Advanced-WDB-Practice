@@ -42,6 +42,13 @@ section {
   padding: 100px 80px;
 }
 
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 header {
   position: absolute;
   width: 100%;
