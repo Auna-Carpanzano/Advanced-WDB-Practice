@@ -68,3 +68,10 @@ header nav {
 header nav li {
   margin: 0 15px;
 }
+
+.hero {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
