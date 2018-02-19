@@ -157,3 +157,7 @@ header nav li {
   background-size: cover;
   background-position: center;
 }
+
+.destinations .grid li.small {
+  flex-basis: 30%;
+}
