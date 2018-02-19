@@ -220,3 +220,7 @@ footer {
   color: #FFF;
   padding: 20px 0;
 }
+
+footer ul {
+  display: flex;
+}
