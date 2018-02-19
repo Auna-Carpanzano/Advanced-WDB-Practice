@@ -175,3 +175,7 @@ header nav li {
   flex-basis: 50%;
   text-align: center;
 }
+
+.packages .grid li i {
+  color: #8c93ff;
+}
