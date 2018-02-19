@@ -235,3 +235,9 @@ footer p {
   opacity: 0.6;
   align-self: center;
 }
+
+@media (max-width: 800px) {
+  section {
+    padding: 50px 20px;
+  }
+}
