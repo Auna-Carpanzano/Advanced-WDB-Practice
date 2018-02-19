@@ -91,3 +91,8 @@ header nav li {
   font: bold 60px "Raleway", sans-serif;
   margin-bottom: 15px;
 }
+
+.hero h3 {
+  font: normal 28px "Raleway", sans-serif;
+  margin-bottom: 40px;
+}
