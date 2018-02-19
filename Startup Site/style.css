@@ -34,3 +34,8 @@ header {
 header h2 {
   font-family: "Raleway", sans-serif;
 }
+
+header nav {
+  display: flex;
+  margin-right: -15px;
+}
