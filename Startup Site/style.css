@@ -149,3 +149,11 @@ header nav li {
     margin: 0;
   }
 }
+
+.destinations .grid li {
+  height: 350px;
+  padding: 20px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
