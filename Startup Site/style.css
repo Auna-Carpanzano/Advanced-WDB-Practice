@@ -266,3 +266,10 @@ footer p {
     padding: 15px 40px;
   }
 }
+
+@media (max-width: 1100px) {
+  .destinations .grid li.small,
+  .destinations .grid li.large {
+    flex-basis: 50%;
+  }
+}
