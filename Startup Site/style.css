@@ -273,3 +273,10 @@ footer p {
     flex-basis: 50%;
   }
 }
+
+@media (max-width: 800px) {
+  .destinations .grid li.small,
+  .destinations .grid li.large {
+    flex-basis: 100%;
+  }
+}
