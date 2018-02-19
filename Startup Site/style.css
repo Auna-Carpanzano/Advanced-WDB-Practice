@@ -211,3 +211,12 @@ header nav li {
   color: #555;
   flex: 1;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #607d8b;
+  color: #FFF;
+  padding: 20px 0;
+}
