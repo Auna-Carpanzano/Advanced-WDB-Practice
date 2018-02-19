@@ -199,3 +199,7 @@ header nav li {
   flex-wrap: wrap;
   width: 60%;
 }
+
+.contact form .btn {
+  padding: 18px 42px;
+}
