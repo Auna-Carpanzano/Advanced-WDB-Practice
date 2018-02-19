@@ -249,4 +249,20 @@ footer p {
   header h2 {
     margin-bottom: 15px;
   }
+  
+  .hero {
+    min-height: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+  }
+  
+  .hero h3 {
+    font-size: 24px;
+  }
+  
+  .hero a.btn {
+    padding: 15px 40px;
+  }
 }
