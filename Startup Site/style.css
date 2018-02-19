@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
   margin: 0;
@@ -60,6 +60,14 @@ hr {
 section h3.title {
   text-transform: uppercase;
   font: bold 32px "Raleway", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section p {
+  max-width: 775px;
+  line-height: 2;
+  padding: 0 20px;
   margin-bottom: 30px;
   text-align: center;
 }
