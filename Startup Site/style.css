@@ -169,3 +169,9 @@ header nav li {
 .destinations .grid li.large {
   flex-basis: 70%;
 }
+
+.packages .grid li {
+  padding: 50px;
+  flex-basis: 50%;
+  text-align: center;
+}
