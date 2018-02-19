@@ -270,6 +270,15 @@ footer p {
     flex-basis: 100%;
     padding: 20px;
   }
+  
+  .testimonials .quote {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .testimonials .author {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1100px) {
