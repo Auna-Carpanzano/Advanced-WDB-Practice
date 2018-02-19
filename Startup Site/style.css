@@ -224,3 +224,7 @@ footer {
 footer ul {
   display: flex;
 }
+
+footer ul li {
+  margin-left: 16px;
+}
