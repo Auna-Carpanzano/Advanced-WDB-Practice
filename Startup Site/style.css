@@ -57,6 +57,13 @@ hr {
   background-color: #3f51b5;
 }
 
+section h3.title {
+  text-transform: uppercase;
+  font: bold 32px "Raleway", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 header {
   position: absolute;
   width: 100%;
