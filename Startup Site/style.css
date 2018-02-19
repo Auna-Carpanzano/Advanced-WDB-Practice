@@ -203,3 +203,8 @@ header nav li {
 .contact form .btn {
   padding: 18px 42px;
 }
+
+.contact form input {
+  padding: 15px;
+  margin-right: 30px;
+}
