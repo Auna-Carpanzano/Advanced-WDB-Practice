@@ -14,3 +14,8 @@ function findIndex(arr, callback) {
   }
   return -1;
 }
+
+// setInterval exercise
+function countDown(seconds) {
+  
+}
