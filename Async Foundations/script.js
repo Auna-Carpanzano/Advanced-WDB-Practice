@@ -17,5 +17,7 @@ function findIndex(arr, callback) {
 
 // setInterval exercise
 function countDown(seconds) {
-  
+  var intervalId = setInterval(function() {
+    
+  }, 1000);
 }
