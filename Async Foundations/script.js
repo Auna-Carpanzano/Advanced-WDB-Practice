@@ -4,3 +4,8 @@ function forEach(arr, callback) {
     callback(arr[i], i, arr);
   }
 }
+
+// Stand alone findIndex function
+function findIndex(arr, callback) {
+  
+}
