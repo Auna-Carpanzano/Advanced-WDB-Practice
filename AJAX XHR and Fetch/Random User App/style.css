@@ -28,3 +28,7 @@ img {
 .btn {
   flex: 0 0 100%;
 }
+
+.email {
+  margin-top: 1rem;
+}
