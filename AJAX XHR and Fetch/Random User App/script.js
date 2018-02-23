@@ -9,11 +9,7 @@ var btn = document.getElementById("btn");
 btn.addEventListener("click", function() {
   fetch(url)
   .then(parseJSON)
-  .then(function(data) {
-    var fullname = data.name.first + " " + data.name.last;
-    fullnameDisplay.innerText = fullname;
-    avatarDisplay.src = data.picture.medium;
-  })
+  .then(updateProfile)
   .catch(function(err) {
     console.log(err);
   })
@@ -23,4 +19,10 @@ function parseJSON (res) {
   return res.json().then(function(parsedData) {
     return parsedData.results[0];
   })
+}
+
+function updateProfile (data) {
+  var fullname = data.name.first + " " + data.name.last;
+  fullnameDisplay.innerText = fullname;
+  avatarDisplay.src = data.picture.medium;
 }
