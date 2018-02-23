@@ -11,9 +11,7 @@ btn.addEventListener("click", function() {
   .then(handleErrors)
   .then(parseJSON)
   .then(updateProfile)
-  .catch(function(err) {
-    console.log(err);
-  })
+  .catch(displayErrors)
 });
 
 function handleErrors(res) {
@@ -36,4 +34,8 @@ function updateProfile (data) {
   usernameDisplay.innerText = data.login.username;
   emailDisplay.innerText = data.email;
   cityDisplay.innerText = data.location.city;
+}
+
+function displayErrors(err) {
+  console.log(err);
 }
