@@ -15,6 +15,7 @@ btn.addEventListener("click", function() {
   .then(function(data) {
     var fullname = data.results[0].name.first + " " + data.results[0].name.last;
     fullnameDisplay.innerText = fullname;
+    avatarDisplay.src = data.results[0].picture.medium;
   })
   .catch(function(err) {
     console.log(err);
