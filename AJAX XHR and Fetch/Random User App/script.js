@@ -26,4 +26,6 @@ function updateProfile (data) {
   fullnameDisplay.innerText = fullname;
   avatarDisplay.src = data.picture.medium;
   usernameDisplay.innerText = data.login.username;
+  emailDisplay.innerText = data.email;
+  cityDisplay.innerText = data.location.city;
 }
