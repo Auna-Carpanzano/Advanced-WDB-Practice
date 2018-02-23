@@ -8,6 +8,10 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
   fetch(url)
+  .then(function(res) {
+    console.log(res);
+    return res.json();
+  })
   .then(function(data) {
     console.log(data);
   })
