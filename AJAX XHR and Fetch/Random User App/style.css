@@ -24,3 +24,7 @@ img {
   flex-direction: column;
   align-self: center;
 }
+
+.btn {
+  flex: 0 0 100%;
+}
