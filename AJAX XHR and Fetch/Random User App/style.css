@@ -19,3 +19,8 @@ img {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+.card-body {
+  flex-direction: column;
+  align-self: center;
+}
