@@ -25,5 +25,5 @@ function updateProfile (data) {
   var fullname = data.name.first + " " + data.name.last;
   fullnameDisplay.innerText = fullname;
   avatarDisplay.src = data.picture.medium;
-  username.innerText = data.login.username;
+  usernameDisplay.innerText = data.login.username;
 }
