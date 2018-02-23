@@ -8,16 +8,19 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
   fetch(url)
-  .then(function(res) {
-    console.log(res);
-    return res.json();
-  })
+  .then(parseJSON)
   .then(function(data) {
-    var fullname = data.results[0].name.first + " " + data.results[0].name.last;
+    var fullname = data.name.first + " " + data.name.last;
     fullnameDisplay.innerText = fullname;
-    avatarDisplay.src = data.results[0].picture.medium;
+    avatarDisplay.src = data.picture.medium;
   })
   .catch(function(err) {
     console.log(err);
   })
 });
+
+function parseJSON (res) {
+  return res.json().then(function(data) {
+    return data.results[0];
+  })
+}
