@@ -7,6 +7,7 @@ btn.addEventListener("click", function() {
   XHR.onreadystatechange = function() {
     if (XHR.readyState == 4 && XHR.status == 200) {
       var url = JSON.parse(XHR.responseText).message;
+      img.src = url;
     }
   }
   
