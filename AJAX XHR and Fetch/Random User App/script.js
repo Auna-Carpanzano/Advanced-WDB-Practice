@@ -13,7 +13,8 @@ btn.addEventListener("click", function() {
     return res.json();
   })
   .then(function(data) {
-    console.log(data);
+    var fullname = data.results[0].name.first + " " + data.results[0].name.last;
+    fullnameDisplay.innerText = fullname;
   })
   .catch(function(err) {
     console.log(err);
