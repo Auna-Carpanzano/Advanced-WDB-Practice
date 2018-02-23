@@ -13,3 +13,9 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
