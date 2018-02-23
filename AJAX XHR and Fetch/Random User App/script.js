@@ -20,7 +20,7 @@ btn.addEventListener("click", function() {
 });
 
 function parseJSON (res) {
-  return res.json().then(function(data) {
-    return data.results[0];
+  return res.json().then(function(parsedData) {
+    return parsedData.results[0];
   })
 }
