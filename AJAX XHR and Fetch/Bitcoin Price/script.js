@@ -7,7 +7,7 @@ btn.addEventListener("click", function() {
   XHR.onreadystatechange = function() {
     if (XHR.readyState == 4 && XHR.status == 200) {
       var rate = JSON.parse(XHR.responseText).bpi.USD.rate;
-      price.innerHTML = rate;
+      price.innerHTML = rate + "USD";
     }
   }
   
