@@ -5,7 +5,7 @@ btn.addEventListener("click", function() {
   
   XHR.onreadystatechange = function() {
     if (XHR.readyState == 4 && XHR.status == 200) {
-      console.log(XHR.responseText);
+      var url = JSON.parse(XHR.responseText).message;
     }
   }
   
