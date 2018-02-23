@@ -7,5 +7,11 @@ var city = document.getElementById("city");
 var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
-
+  fetch(url)
+  .then(function(data) {
+    console.log(data);
+  })
+  .catch(function(err) {
+    console.log(err);
+  })
 });
