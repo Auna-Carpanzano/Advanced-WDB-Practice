@@ -8,12 +8,20 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
   fetch(url)
+  .then(handleErrors)
   .then(parseJSON)
   .then(updateProfile)
   .catch(function(err) {
     console.log(err);
   })
 });
+
+function handleErrors(res) {
+  if (!res.ok) {
+    throw Error(res.status);
+  }
+  return res;
+}
 
 function parseJSON (res) {
   return res.json().then(function(parsedData) {
