@@ -3,3 +3,9 @@ span {
   text-align: center;
   color: green;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
