@@ -1,4 +1,5 @@
 var btn = document.querySelector("#btn");
+var price = document.querySelector("#price");
 
 btn.addEventListener("click", function() {
   var XHR = new XMLHttpRequest();
