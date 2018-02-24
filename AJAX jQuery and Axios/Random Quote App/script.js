@@ -21,5 +21,7 @@ XHR.send();
 
 // jQuery
 jqueryBtn.addEventListener("click", function () {
-
+  $.getJSON(url, function(data) {
+    quote.innerText = data;
+  })
 });
