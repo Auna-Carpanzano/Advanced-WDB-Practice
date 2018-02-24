@@ -24,3 +24,7 @@ function showFirstAndLast(arr){
   });
   return newArr;
 }
+
+function addKeyAndValue(arr, key, value) {
+
+}
