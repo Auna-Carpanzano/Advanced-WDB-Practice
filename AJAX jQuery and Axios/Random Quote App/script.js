@@ -28,5 +28,5 @@ jqueryBtn.addEventListener("click", function () {
 
 // Axios
 axiosBtn.addEventListener("click", function () {
-
+  axios.get(url)
 });
