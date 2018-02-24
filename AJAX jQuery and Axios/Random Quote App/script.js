@@ -18,3 +18,8 @@ XHR.onreadystatechange = function() {
 XHR.open("GET", url);
 XHR.send();  
 });
+
+// jQuery
+jqueryBtn.addEventListener("click", function () {
+
+});
