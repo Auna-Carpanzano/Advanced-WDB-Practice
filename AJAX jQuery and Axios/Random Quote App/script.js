@@ -25,3 +25,8 @@ jqueryBtn.addEventListener("click", function () {
     quote.innerText = data;
   })
 });
+
+// Axios
+axiosBtn.addEventListener("click", function () {
+
+});
