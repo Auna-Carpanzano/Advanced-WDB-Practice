@@ -9,4 +9,10 @@ function doubleValues(arr) {
 
 function onlyEvenValues(arr){
   var newArr = [];
+  arr.forEach(function(val) {
+    if (val % 2 === 0) {
+      newArr.push(val);
+    }
+  });
+  return newArr;
 }
