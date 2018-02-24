@@ -37,6 +37,11 @@ axiosBtn.addEventListener("click", function () {
 // Fetch
 fetchBtn.addEventListener("click", function () {
   fetch(url)
+  .then(function(req){
+    req.json().then(function(data) {
+      quote.innerText = data[0];
+    });
+  })
   .catch(function() {
     alert("ERROR");
   })
