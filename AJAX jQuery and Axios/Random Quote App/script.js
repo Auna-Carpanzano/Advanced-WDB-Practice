@@ -8,4 +8,10 @@ var quote = document.getElementById("quote");
 // XHR
 xhrBtn.addEventListener("click", function () {
 var XHR = new XMLHttpRequest();
+
+XHR.onreadystatechange = function() {
+  if (XHR.readyState == 4 && XHR.status == 200) {
+    quote.innerText = XHR.responseText;
+  }
+} 
 });
