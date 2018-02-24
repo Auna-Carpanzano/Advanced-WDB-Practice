@@ -18,5 +18,5 @@ function onlyEvenValues(arr){
 }
 
 function showFirstAndLast(arr){
-
+  var newArr = [];
 }
