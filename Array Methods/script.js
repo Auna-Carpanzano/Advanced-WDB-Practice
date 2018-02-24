@@ -6,3 +6,6 @@ function doubleValues(arr) {
   });
   return newArr;
 }
+
+function onlyEvenValues(arr){
+}
