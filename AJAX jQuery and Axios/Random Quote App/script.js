@@ -13,5 +13,8 @@ XHR.onreadystatechange = function() {
   if (XHR.readyState == 4 && XHR.status == 200) {
     quote.innerText = XHR.responseText;
   }
-} 
+}
+
+XHR.open("GET", url);
+XHR.send();  
 });
