@@ -29,4 +29,7 @@ jqueryBtn.addEventListener("click", function () {
 // Axios
 axiosBtn.addEventListener("click", function () {
   axios.get(url)
+  .then(function(res) {
+    quote.innerText = res.data;
+  })
 });
