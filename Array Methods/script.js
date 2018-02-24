@@ -8,4 +8,5 @@ function doubleValues(arr) {
 }
 
 function onlyEvenValues(arr){
+  var newArr = [];
 }
