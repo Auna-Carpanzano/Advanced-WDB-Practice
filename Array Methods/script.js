@@ -16,3 +16,7 @@ function onlyEvenValues(arr){
   });
   return newArr;
 }
+
+function showFirstAndLast(arr){
+
+}
