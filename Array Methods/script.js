@@ -19,4 +19,8 @@ function onlyEvenValues(arr){
 
 function showFirstAndLast(arr){
   var newArr = [];
+  arr.forEach(function(val) {
+    newArr.push(val[0] + val[val.length-1]);
+  });
+  return newArr;
 }
