@@ -1,4 +1,6 @@
 var url = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
-
-// XHR
-var XHR = new XMLHttpRequest();
+var xhrBtn = document.getElementById("xhr");
+var fetchBtn = document.getElementById("fetch");
+var jqueryBtn = document.getElementById("jquery");
+var axiosBtn = document.getElementById("axios");
+var quote = document.getElementById("quote");
