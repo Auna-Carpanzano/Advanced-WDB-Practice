@@ -33,3 +33,8 @@ axiosBtn.addEventListener("click", function () {
     quote.innerText = res.data;
   })
 });
+  
+// Fetch
+fetchBtn.addEventListener("click", function () {
+
+});
