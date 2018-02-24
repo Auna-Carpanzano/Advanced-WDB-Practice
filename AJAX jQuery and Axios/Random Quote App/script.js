@@ -36,5 +36,5 @@ axiosBtn.addEventListener("click", function () {
   
 // Fetch
 fetchBtn.addEventListener("click", function () {
-
+  fetch(url)
 });
