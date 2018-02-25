@@ -7,5 +7,6 @@ function extractValue(arr, key){
 
 function vowelCount(str){
   var vowels = "aeiou";
-
+  return str.toLowerCase().split("").reduce(function(acc, next) {
+  }, {});
 }
