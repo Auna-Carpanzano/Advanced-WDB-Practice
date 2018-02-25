@@ -10,3 +10,9 @@ function valTimesIndex(arr){
     return val * index;
   }); 
 }
+
+function extractKey(arr, key) {
+  return arr.map(function(val) {
+    return val[key];
+  });  
+}
