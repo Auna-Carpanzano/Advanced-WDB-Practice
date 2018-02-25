@@ -18,3 +18,10 @@ function vowelCount(str){
     return acc;
   }, {});
 }
+
+function addKeyAndValue(arr, key, value){
+  return arr.reduce(function(acc, next, index) {
+    acc[index][key] = value;
+    return acc;
+  }, arr);
+}
