@@ -24,6 +24,7 @@ function guessingGame(amount){
         return "No more guesses the answer was " + answer;
       }
       else if (guess > answer) return "Your guess is too high!";
+      else if (guess < answer) return "Your guess is too low!";
     }
   }
 }
