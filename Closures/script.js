@@ -12,4 +12,9 @@ function guessingGame(amount){
   var answer = Math.floor(Math.random()*11);
   var guesses = 0;
   var completed = false;
+  return function(guess) {
+    if (!completed) {
+      guesses++;
+    }
+  }
 }
