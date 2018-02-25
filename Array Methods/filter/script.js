@@ -23,3 +23,8 @@ function removeVowels(str){
     return vowels.indexOf(val) === -1;
   }).join(""); 
 }
+
+function doubleOddNumbers(arr){
+  arr.filter(function(val) {
+    return val % 2 !== 0;
+}
