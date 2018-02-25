@@ -19,5 +19,7 @@ function findInObj(arr, key, searchValue){
 
 function removeVowels(str){
   var vowels = "aeiou"
-
+  return str.toLowerCase().split("").filter(function(val) {
+    return vowels.indexOf(val) === -1;
+  }).join(""); 
 }
