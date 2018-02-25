@@ -16,3 +16,9 @@ function extractKey(arr, key) {
     return val[key];
   });  
 }
+
+function extractFullName(arr){
+  return arr.map(function(val) {
+    return val.first + " " + val.last;
+  });
+}
