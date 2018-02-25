@@ -15,6 +15,10 @@ function guessingGame(amount){
   return function(guess) {
     if (!completed) {
       guesses++;
+      if (guess === answer) {
+        completed = true;
+        return "You got it!";
+      }
     }
   }
 }
