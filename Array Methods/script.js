@@ -31,3 +31,7 @@ function addKeyAndValue(arr, key, value) {
   });
   return arr;
 }
+
+function vowelCount(str){
+
+}
