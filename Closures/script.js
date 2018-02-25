@@ -23,6 +23,7 @@ function guessingGame(amount){
         completed = true;
         return "No more guesses the answer was " + answer;
       }
+      else if (guess > answer) return "Your guess is too high!";
     }
   }
 }
