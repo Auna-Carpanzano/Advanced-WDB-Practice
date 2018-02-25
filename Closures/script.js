@@ -19,6 +19,10 @@ function guessingGame(amount){
         completed = true;
         return "You got it!";
       }
+      else if (guesses === amount) {
+        completed = true;
+        return "No more guesses the answer was " + answer;
+      }
     }
   }
 }
