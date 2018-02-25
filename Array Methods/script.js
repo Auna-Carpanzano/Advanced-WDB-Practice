@@ -38,6 +38,8 @@ function vowelCount(str){
   var vowels = "aeiou";
   
   splitArr.forEach(function(letter) {
-    
+    if (vowels.indexOf(letter) !== -1) {
+      
+    }
   });
 }
