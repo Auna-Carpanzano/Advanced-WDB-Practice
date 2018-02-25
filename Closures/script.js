@@ -26,5 +26,6 @@ function guessingGame(amount){
       else if (guess > answer) return "Your guess is too high!";
       else if (guess < answer) return "Your guess is too low!";
     }
+    return "You are all done playing!"
   }
 }
