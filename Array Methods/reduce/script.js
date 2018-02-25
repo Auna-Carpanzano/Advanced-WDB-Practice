@@ -25,3 +25,9 @@ function addKeyAndValue(arr, key, value){
     return acc;
   }, arr);
 }
+
+function partition(arr, callback){
+  return arr.reduce(function(acc, next) {
+    
+  }, [[], []]);
+}
