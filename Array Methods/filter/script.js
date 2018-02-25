@@ -25,6 +25,9 @@ function removeVowels(str){
 }
 
 function doubleOddNumbers(arr){
-  arr.filter(function(val) {
+  return arr.filter(function(val) {
     return val % 2 !== 0;
+  }).map(function(val) {
+    return val * 2;
+  });
 }
