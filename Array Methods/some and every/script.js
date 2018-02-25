@@ -27,3 +27,9 @@ function hasCertainKey(arr, key){
     return val[key];
   });  
 }
+
+function hasCertainValue(arr, key, searchValue){
+  return arr.every(function(val) {
+    return val[key] === searchValue;
+  });   
+}
