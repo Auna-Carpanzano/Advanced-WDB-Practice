@@ -16,3 +16,8 @@ function findInObj(arr, key, searchValue){
     return val[key] === searchValue;
   })[0];
 }
+
+function removeVowels(str){
+  var vowels = "aeiou"
+
+}
