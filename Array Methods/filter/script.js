@@ -4,3 +4,9 @@ function filterByValue(arr, key){
     return val[key] !== undefined;
   });
 }
+
+function find(arr, searchValue){
+  return arr.filter(function(val) {
+    return val === searchValue;
+  })[0];
+}
