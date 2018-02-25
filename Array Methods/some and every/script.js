@@ -9,3 +9,9 @@ function hasAZero(num){
     return val === "0";
   });
 }
+
+function hasOnlyOddNumbers(arr){
+  return arr.every(function(val) {
+    return val % 2 !== 0;
+  });
+}
