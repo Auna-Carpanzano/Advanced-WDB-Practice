@@ -9,5 +9,5 @@ function specialMultiply(a, b) {
 }
 
 function guessingGame(amount){
-
+  var answer = Math.floor(Math.random()*11);
 }
