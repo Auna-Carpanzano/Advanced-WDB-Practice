@@ -34,4 +34,6 @@ function addKeyAndValue(arr, key, value) {
 
 function vowelCount(str){
   var splitArr = str.toLowerCase().split("");
+  var obj = {};
+  var vowels = "aeiou";
 }
