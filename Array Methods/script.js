@@ -39,7 +39,12 @@ function vowelCount(str){
   
   splitArr.forEach(function(letter) {
     if (vowels.indexOf(letter) !== -1) {
-      
+      if (obj[letter]) {
+        obj[letter]++;
+      } else {
+        obj[letter] = 1;
+      }
     }
   });
+  return obj;
 }
