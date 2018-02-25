@@ -10,3 +10,9 @@ function find(arr, searchValue){
     return val === searchValue;
   })[0];
 }
+
+function findInObj(arr, key, searchValue){
+  return arr.filter(function(val) {
+    return val[key] === searchValue;
+  })[0];
+}
