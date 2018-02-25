@@ -21,3 +21,9 @@ function hasNoDuplicates(arr){
     return arr.indexOf(val) === arr.lastIndexOf(val); 
   });
 }
+
+function hasCertainKey(arr, key){
+  return arr.every(function(val) {
+    return val[key];
+  });  
+}
