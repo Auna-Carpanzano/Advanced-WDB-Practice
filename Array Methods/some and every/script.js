@@ -15,3 +15,9 @@ function hasOnlyOddNumbers(arr){
     return val % 2 !== 0;
   });
 }
+
+function hasNoDuplicates(arr){
+  return arr.every(function(val) {
+    return arr.indexOf(val) === arr.lastIndexOf(val); 
+  });
+}
