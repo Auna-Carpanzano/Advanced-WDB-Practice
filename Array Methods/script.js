@@ -36,4 +36,8 @@ function vowelCount(str){
   var splitArr = str.toLowerCase().split("");
   var obj = {};
   var vowels = "aeiou";
+  
+  splitArr.forEach(function(letter) {
+    
+  });
 }
