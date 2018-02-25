@@ -4,3 +4,8 @@ function extractValue(arr, key){
     return acc;
   },[]);
 }
+
+function vowelCount(str){
+  var vowels = "aeiou";
+
+}
