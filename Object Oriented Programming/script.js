@@ -56,3 +56,7 @@ Person.prototype.addToFamily = function(person) {
   }
   return this.family.length;
 }
+
+Array.prototype.map = function(callback) {
+  
+}
