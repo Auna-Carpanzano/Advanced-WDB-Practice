@@ -51,5 +51,7 @@ Person.prototype.fullName = function() {
 }
 
 Person.prototype.addToFamily = function(person) {
+  if (this.family.indexOf(person) === -1 && person instanceof Person) {
 
+  }
 }
