@@ -16,3 +16,12 @@ function Person(firstName, lastName, favoriteColor, favoriteNumber) {
     return num * this.favoriteNumber;
   };
 }
+
+function Vehicle(make, model, year) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
+}
+
+
+
