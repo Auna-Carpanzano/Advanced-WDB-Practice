@@ -28,5 +28,9 @@ Vehicle.prototype.turnOn = function() {
   this.isRunning = true;
 }
 
+Vehicle.prototype.turnOff = function() {
+  this.isRunning = false;
+}
+
 
 
