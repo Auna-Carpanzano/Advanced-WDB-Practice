@@ -6,3 +6,7 @@ function Dog(name, age) {
     console.log(this.name + " just barked!");
   }
 }
+
+function Person(firstName, lastName, favoriteColor, favoriteNumber) {
+
+}
