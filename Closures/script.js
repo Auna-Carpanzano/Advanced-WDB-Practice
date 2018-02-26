@@ -31,6 +31,10 @@ function guessingGame(amount){
 }
 
 // Call, apply, and bind
-function arrayFrom(arrayLikeObject){
+function arrayFrom(arrayLikeObject) {
   return [].slice.call(arrayLikeObject);
+}
+
+function sumEvenArguments() {
+  var newArg = [].slice.call(arguments);
 }
