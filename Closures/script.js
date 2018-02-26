@@ -47,4 +47,9 @@ function sumEvenArguments() {
 
 function invokeMax(fn, num) {
   var counter = 0;
+  return function() {
+    if (counter >= num) return "Maxed out";
+    counter++;
+    return fn.apply(this, arguments);
+  };
 }
