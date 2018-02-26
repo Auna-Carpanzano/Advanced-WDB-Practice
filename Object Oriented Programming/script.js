@@ -64,3 +64,7 @@ Array.prototype.map = function(callback) {
   }
   return newArr;
 }
+
+String.prototype.reverse = function() {
+  
+}
