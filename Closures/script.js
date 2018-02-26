@@ -56,4 +56,10 @@ function invokeMax(fn, num) {
 
 function once(fn, thisArg) {
   var hasBeenCalled = false;
+  return function() {
+    if (!hasBeenCalled) {
+      hasBeenCalled = true;
+      return fn.apply(thisArg, arguments);
+    }
+  };
 }
