@@ -72,3 +72,9 @@ String.prototype.reverse = function() {
   }
   return newStr;
 }
+
+function Vehicle(make, model, year) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
+}
