@@ -44,3 +44,7 @@ function sumEvenArguments() {
     return acc;
   }, 0);
 }
+
+function invokeMax(fn, num) {
+  var counter = 0;
+}
