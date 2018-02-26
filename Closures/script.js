@@ -53,3 +53,7 @@ function invokeMax(fn, num) {
     return fn.apply(this, arguments);
   };
 }
+
+function once(fn, thisArg) {
+  var hasBeenCalled = false;
+}
