@@ -91,3 +91,5 @@ function Car(make, model, year) {
   Vehicle.apply(this, arguments);
   this.numWheels = 4;
 }
+
+Car.prototype = Object.create(Vehicle.prototype);
