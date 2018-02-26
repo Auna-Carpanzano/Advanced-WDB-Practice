@@ -49,3 +49,7 @@ function Person(firstName, lastName, favoriteColor, favoriteNumber) {
 Person.prototype.fullName = function() {
   return this.firstName + " " + this.lastName;
 }
+
+Person.prototype.addToFamily = function(person) {
+
+}
