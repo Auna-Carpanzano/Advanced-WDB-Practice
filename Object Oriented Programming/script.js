@@ -44,3 +44,7 @@ function Person(firstName, lastName, favoriteColor, favoriteNumber) {
   this.favoriteColor = favoriteColor;
   this.favoriteNumber = favoriteNumber;
 }
+
+Person.prototype.fullName = function() {
+  return firstName + lastName;
+}
