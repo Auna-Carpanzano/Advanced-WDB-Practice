@@ -78,3 +78,7 @@ function Vehicle(make, model, year) {
   this.model = model;
   this.year = year;
 }
+
+Vehicle.prototype.start = function() {
+  return "VROOM!";
+}
