@@ -58,5 +58,5 @@ Person.prototype.addToFamily = function(person) {
 }
 
 Array.prototype.map = function(callback) {
-  
+  var newArr = [];
 }
