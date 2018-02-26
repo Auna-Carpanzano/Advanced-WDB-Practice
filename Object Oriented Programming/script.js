@@ -93,3 +93,4 @@ function Car(make, model, year) {
 }
 
 Car.prototype = Object.create(Vehicle.prototype);
+Car.prototype.constructor = Car;
