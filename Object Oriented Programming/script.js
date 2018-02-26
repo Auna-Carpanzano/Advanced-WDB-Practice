@@ -66,5 +66,5 @@ Array.prototype.map = function(callback) {
 }
 
 String.prototype.reverse = function() {
-  
+  var newStr = '';
 }
