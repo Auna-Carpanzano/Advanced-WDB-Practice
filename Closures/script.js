@@ -37,4 +37,7 @@ function arrayFrom(arrayLikeObject) {
 
 function sumEvenArguments() {
   var newArg = [].slice.call(arguments);
+  return newArg.reduce(function(acc, next) {
+
+  }, 0);
 }
