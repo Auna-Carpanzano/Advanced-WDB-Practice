@@ -47,6 +47,5 @@ function Person(firstName, lastName, favoriteColor, favoriteNumber) {
 }
 
 Person.prototype.fullName = function() {
-  return firstName + lastName;
+  return this.firstName + " " + this.lastName;
 }
-
