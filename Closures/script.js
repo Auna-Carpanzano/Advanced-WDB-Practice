@@ -29,3 +29,8 @@ function guessingGame(amount){
     return "You are all done playing!"
   }
 }
+
+// Call, apply, and bind
+function arrayFrom(arrayLikeObject){
+  return [].slice.call(arrayLikeObject);
+}
