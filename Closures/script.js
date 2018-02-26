@@ -67,4 +67,7 @@ function once(fn, thisArg) {
 
 function bind(fn, thisArg){
   var outerArgs = [].slice.call(arguments, 2);
+  return function() {
+    var innerArgs = [].slice.call(arguments);
+  }
 }
