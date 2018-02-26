@@ -82,3 +82,7 @@ function Vehicle(make, model, year) {
 Vehicle.prototype.start = function() {
   return "VROOM!";
 }
+
+Vehicle.prototype.toString = function() {
+  return "The make, model and year are " + this.make + " " + this.model + " " + this.year; 
+}
