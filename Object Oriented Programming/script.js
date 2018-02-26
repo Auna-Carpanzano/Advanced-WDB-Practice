@@ -24,5 +24,9 @@ function Vehicle(make, model, year) {
   this.isRunning = false;
 }
 
+Vehicle.prototype.turnOn = function() {
+  this.isRunning = true;
+}
+
 
 
