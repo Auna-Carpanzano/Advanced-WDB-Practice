@@ -63,3 +63,8 @@ function once(fn, thisArg) {
     }
   };
 }
+
+
+function bind(fn, thisArg){
+  var outerArgs = [].slice.call(arguments, 2);
+}
