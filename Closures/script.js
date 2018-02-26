@@ -70,5 +70,6 @@ function bind(fn, thisArg){
   return function() {
     var innerArgs = [].slice.call(arguments);
     var allArgs = outerArgs.concat(innerArgs);
-  }
+    return fn.apply(thisArg, allArgs);
+  };
 }
