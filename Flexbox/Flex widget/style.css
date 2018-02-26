@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1 1 200px;
+  padding: 20px;
+  color: #FFF;
+  background-color: #cc0042;
+  font-family: "Helvetica", sans-serif;
+}
+
+.middle {
+  background-color: #b20039;
+}
