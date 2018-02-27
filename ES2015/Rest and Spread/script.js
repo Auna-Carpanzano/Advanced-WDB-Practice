@@ -5,4 +5,6 @@ function smallestValue(...nums) {
 
 function placeInMiddle(arr, vals){
   let mid = Math.floor(arr.length/2);
+  arr.splice(mid, 0, ...vals);
+  return arr;
 }
