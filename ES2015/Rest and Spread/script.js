@@ -12,3 +12,7 @@ function placeInMiddle(arr, vals) {
 function joinArrays(...args) {
   return args.reduce((acc, next) => acc.concat(next), []);
 }
+
+function sumEvenArgs(...args) {
+  return args.reduce((acc, next) => next % 2 === 0 ? acc += next : acc, 0);
+}
