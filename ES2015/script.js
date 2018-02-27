@@ -36,3 +36,5 @@ let mapFilterAndReduce = arr => arr.map(val => val.firstName).filter(val => val.
     acc[next] = next.length;
     return acc;
   }, {});
+
+let createStudentObj = (firstName, lastName) => ({firstName:firstName, lastName:lastName});
