@@ -38,3 +38,21 @@ let mapFilterAndReduce = arr => arr.map(val => val.firstName).filter(val => val.
   }, {});
 
 let createStudentObj = (firstName, lastName) => ({firstName:firstName, lastName:lastName});
+
+//var instructor = {
+//  firstName: "Colt",
+//  sayHi: function(){
+//    setTimeout(function(){
+//      console.log('Hello ' + this.firstName)
+//    },1000)
+//  }
+//}
+
+var instructor = {
+  firstName: "Colt",
+  sayHi: function(){
+    setTimeout(() => {
+      console.log('Hello ' + this.firstName);
+    },1000);
+  }
+};
