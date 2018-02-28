@@ -25,3 +25,10 @@ class Vehicle {
     return `The make, model, and year are ${make} ${model} ${year}`;
   }
 }
+
+class Car extends Vehicle {
+  constructor() {
+    super(...arguments);
+    this.numWheels = 4;
+  }
+}
