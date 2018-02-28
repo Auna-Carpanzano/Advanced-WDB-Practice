@@ -32,3 +32,10 @@ class Car extends Vehicle {
     this.numWheels = 4;
   }
 }
+
+class Motorcycle extends Vehicle {
+  constructor() {
+    super(...arguments);
+    this.numWheels = 2;
+  }
+}
