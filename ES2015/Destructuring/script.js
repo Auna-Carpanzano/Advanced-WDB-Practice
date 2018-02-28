@@ -9,15 +9,15 @@ function printFullName({first, last}) {
 }
 
 function createStudent({likesES2015 = true, likesJavaScript = true} = {}) {
-  var start = "The student ";
+  var start = "The student";
   if (likesES2015 && likesJavaScript) {
-    start += "likes JavaScript and ES2015";
+    start += " likes JavaScript and ES2015";
   } else if (likesJavaScript) {
-    start += "The student likes JavaScript!";
+    start += " likes JavaScript!";
   } else if (likesES2015) {
-    start += "The student likesES2015!";
+    start += " likes ES2015!";
   } else {
-    start += "The student does not like much...";
+    start += " does not like much...";
   }
   return start;
 }
