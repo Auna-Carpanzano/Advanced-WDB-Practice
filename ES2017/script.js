@@ -12,4 +12,5 @@ async function starWarsString (id) {
   let results = await $.getJSON(`https://swapi.co/api/people/${id}/`);
   str += `${results.name} is featured in `;
   let movies = results.films[0];
+  let moreResults = await $.getJSON(movies);
 }
