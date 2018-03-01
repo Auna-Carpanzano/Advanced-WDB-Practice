@@ -13,4 +13,5 @@ async function starWarsString (id) {
   str += `${results.name} is featured in `;
   let movies = results.films[0];
   let moreResults = await $.getJSON(movies);
+  str += `${moreResults.title}, directed by ${moreResults.director} `
 }
