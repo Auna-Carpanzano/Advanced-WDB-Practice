@@ -7,5 +7,5 @@ async function hasMostFollowers(...usernames) {
 }
 
 async function starWarsString (id) {
-
+  let str = '';
 }
