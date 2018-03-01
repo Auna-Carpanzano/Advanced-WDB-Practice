@@ -15,4 +15,5 @@ async function starWarsString (id) {
   let moreResults = await $.getJSON(movies);
   str += `${moreResults.title}, directed by ${moreResults.director} `
   let planetData = moreResults.planets[0];
+  let finalResults = await $.getJSON(planetData);
 }
