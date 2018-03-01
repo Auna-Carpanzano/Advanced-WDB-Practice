@@ -16,4 +16,6 @@ async function starWarsString (id) {
   str += `${moreResults.title}, directed by ${moreResults.director} `
   let planetData = moreResults.planets[0];
   let finalResults = await $.getJSON(planetData);
+  str += `and it takes place on ${finalResults.name}`;
+  return str;
 }
