@@ -10,4 +10,5 @@ async function hasMostFollowers(...usernames) {
 async function starWarsString (id) {
   let str = '';
   let results = await $.getJSON(`https://swapi.co/api/people/${id}/`);
+  str += `${results.name} is featured in `;
 }
