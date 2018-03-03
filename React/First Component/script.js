@@ -8,3 +8,4 @@ class Pet extends React.Component {
     return ReactDOMFactories.div(null, h2, img);
   }
 }
+ReactDOM.render(React.createElement(Pet), document.getElementById("app"));
