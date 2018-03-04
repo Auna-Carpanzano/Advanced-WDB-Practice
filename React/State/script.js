@@ -26,7 +26,8 @@ class App extends React.Component {
       const hobbyIndex = Math.floor(
         Math.random() *
         this.state.instructors[randInst].length
-      )
+      );
+      const instructors = this.state.instructors.slice();
     }, 5000);
   }
   render() {
