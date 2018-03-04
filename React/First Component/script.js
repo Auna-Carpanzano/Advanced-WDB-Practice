@@ -1,11 +1,13 @@
 class HobbyList extends React.Component {
   render() {
     const hobbies = ["Sleeping", "Eating", "Cuddling"];
-    <ul>
-      {hobbies.map((h, i) => {
-        return <li key={i} style={liStyle}>{h}</li>
-      })}
-    </ul>
+    return (
+      <ul>
+        {hobbies.map((h, i) => {
+          return <li key={i} style={liStyle}>{h}</li>
+        })}
+      </ul>
+    );
   }
 }
 
