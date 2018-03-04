@@ -1,0 +1,20 @@
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.name {
+  text-align: center;
+  font-size: 3em;
+  margin: .25em;
+}
+
+.card {
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.img {
+  width: 500px;
+}
