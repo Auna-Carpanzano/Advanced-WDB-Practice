@@ -1,3 +1,9 @@
+class HobbyList extends React.Component {
+  render() {
+    
+  }
+}
+
 class Pet extends React.Component {
   render() {
     const liStyle = {fontSize: "1.5em"};
