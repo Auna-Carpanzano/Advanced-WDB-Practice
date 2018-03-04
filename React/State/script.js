@@ -30,6 +30,7 @@ class App extends React.Component {
       const instructors = this.state.instructors.slice();
       instructors[randInst] = Object.assign({}, instructors[randInst]);
       instructors[randInst].hobbies = instructors[randInst].hobbies.slice();
+      instructors[randInst].hobbies.splice(hobbyIndex, 1);
     }, 5000);
   }
   render() {
