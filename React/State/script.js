@@ -23,6 +23,10 @@ class App extends React.Component {
         Math.random() *
         this.state.instructors.length
       );
+      const hobbyIndex = Math.floor(
+        Math.random() *
+        this.state.instructors[randInst].length
+      )
     }, 5000);
   }
   render() {
