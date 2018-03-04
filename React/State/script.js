@@ -28,6 +28,7 @@ class App extends React.Component {
         this.state.instructors[randInst].length
       );
       const instructors = this.state.instructors.slice();
+      instructors[randInst] = Object.assign({}, instructors[randInst]);
     }, 5000);
   }
   render() {
