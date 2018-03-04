@@ -19,7 +19,10 @@ class App extends React.Component {
       ]
     };
     setTimeout(() => {
-
+      const randInst = Math.floor(
+        Math.random() *
+        this.state.instructors.length
+      );
     }, 5000);
   }
   render() {
