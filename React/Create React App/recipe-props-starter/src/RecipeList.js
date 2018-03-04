@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Recipe from "./Recipe";
+import PropTypes from "prop-types";
 import "RecipeList.css";
 
 class RecipeList extends Component {
@@ -25,6 +26,11 @@ class RecipeList extends Component {
       }
     ]
   }
+
+  static propTypes = {
+    recipes: PropTypes.arrayOf(PropTypes.object);
+  }
+
   render() {
     
   }
