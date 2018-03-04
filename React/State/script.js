@@ -27,11 +27,13 @@ class App extends React.Component {
         Math.random() *
         this.state.instructors[randInst].length
       );
-      const instructors = this.state.instructors.slice();
-      instructors[randInst] = Object.assign({}, instructors[randInst]);
-      instructors[randInst].hobbies = instructors[randInst].hobbies.slice();
-      instructors[randInst].hobbies.splice(hobbyIndex, 1);
-      this.setState({instructors});
+      const instructors = this.state.instructors.map((inst, i) => {
+
+      });
+//      instructors[randInst] = Object.assign({}, instructors[randInst]);
+//      instructors[randInst].hobbies = instructors[randInst].hobbies.slice();
+//      instructors[randInst].hobbies.splice(hobbyIndex, 1);
+//      this.setState({instructors});
     }, 5000);
   }
   render() {
