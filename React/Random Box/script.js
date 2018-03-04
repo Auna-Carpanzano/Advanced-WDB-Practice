@@ -18,3 +18,4 @@ class Box extends React.Component {
     )
   }
 }
+ReactDOM.render(<Box />, document.getElementById("app"));
