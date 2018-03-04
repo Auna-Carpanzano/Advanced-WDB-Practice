@@ -35,6 +35,11 @@ class RecipeList extends Component {
     const recipes = this.props.recipes.map((r, index) => (
       <Recipe key={index} {...r} />
     ));
+    return (
+      <div className="recipe-list">
+        {recipes}
+      </div>
+    )
   }
 }
 
