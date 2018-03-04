@@ -28,12 +28,20 @@ class App extends React.Component {
         this.state.instructors[randInst].length
       );
       const instructors = this.state.instructors.map((inst, i) => {
-
+        if (i === randInst) {
+          const hobbies = inst.hobbies.slice();
+          hobbies.splice(hobbyIndex, 1);
+          return {
+            ...inst,
+            hobbies
+          }
+        }
+        return inst;
       });
 //      instructors[randInst] = Object.assign({}, instructors[randInst]);
 //      instructors[randInst].hobbies = instructors[randInst].hobbies.slice();
 //      instructors[randInst].hobbies.splice(hobbyIndex, 1);
-//      this.setState({instructors});
+      this.setState({instructors});
     }, 5000);
   }
   render() {
