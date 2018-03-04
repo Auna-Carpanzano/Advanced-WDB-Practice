@@ -1,6 +1,7 @@
 class Pet extends React.Component {
   render() {
     const liStyle = {fontSize: "1.5em"};
+    const hobbies = ["Sleeping", "Eating", "Cuddling"];
     return (
       <div className="card">
         <h2 className="name">Moxie</h2>
