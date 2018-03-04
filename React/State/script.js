@@ -18,6 +18,9 @@ class App extends React.Component {
         }
       ]
     };
+    setTimeout(() => {
+
+    }, 5000);
   }
   render() {
     const instructors = this.state.instructors.map((instructor, index) => (
