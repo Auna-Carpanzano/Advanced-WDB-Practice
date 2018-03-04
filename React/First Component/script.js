@@ -1,6 +1,7 @@
 class HobbyList extends React.Component {
   render() {
     const hobbies = ["Sleeping", "Eating", "Cuddling"];
+    const liStyle = {fontSize: "1.5em"};
     return (
       <ul>
         {hobbies.map((h, i) => {
@@ -13,7 +14,6 @@ class HobbyList extends React.Component {
 
 class Pet extends React.Component {
   render() {
-    const liStyle = {fontSize: "1.5em"};
     return (
       <div className="card">
         <h2 className="name">Moxie</h2>
