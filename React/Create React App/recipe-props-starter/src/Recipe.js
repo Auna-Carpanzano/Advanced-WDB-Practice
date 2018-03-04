@@ -7,7 +7,12 @@ class Recipe extends Component {
       <li key={index}>{ing}</li>
     ));
     return (
-      <div>Recipe {title}</div>
+      <div>
+        <div>Recipe {title}</div>
+        <ul>
+          {ingredients}
+        </ul>
+      </div>
     )
   }
 }
