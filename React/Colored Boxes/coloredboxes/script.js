@@ -17,7 +17,7 @@ class App extends React.Component {
     this.state = {boxes};
     
     setInterval(() => {
-      
+      const boxes = this.state.boxes.slice();
     }, 300);
   }
   render() {
