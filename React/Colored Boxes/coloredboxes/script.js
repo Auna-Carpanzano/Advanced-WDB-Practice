@@ -8,11 +8,12 @@ const Box = ({color}) => {
     backgroundColor: color
   }
   return <div style={style} />;
-}
+};
 
 class App extends React.Component {
     constructor(props) {
     super(props);
+    const boxes = Array(NUM_BOXES).fill().map(this.getRandomColor, this);
   }
   render() {
     return (
