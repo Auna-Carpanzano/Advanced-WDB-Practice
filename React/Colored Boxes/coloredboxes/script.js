@@ -26,6 +26,7 @@ class App extends React.Component {
   
   getRandomColor() {
     let colorIndex = Math.floor(Math.random() * this.props.allColors.length);
+    return this.props.allColors[colorIndex];
   }
   
   render() {
