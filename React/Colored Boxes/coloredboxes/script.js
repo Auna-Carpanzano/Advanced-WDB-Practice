@@ -7,6 +7,7 @@ const Box = ({color}) => {
     display: "inline-block",
     backgroundColor: color
   }
+  return <div style={style} />;
 }
 
 class App extends React.Component {
