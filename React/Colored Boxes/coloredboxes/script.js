@@ -1,3 +1,5 @@
+const NUM_BOXES = 32;
+
 class App extends React.Component {
     constructor(props) {
     super(props);
