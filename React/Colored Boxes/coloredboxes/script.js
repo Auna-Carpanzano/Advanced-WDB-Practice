@@ -14,6 +14,7 @@ class App extends React.Component {
     constructor(props) {
     super(props);
     const boxes = Array(NUM_BOXES).fill().map(this.getRandomColor, this);
+    this.state = {boxes};
   }
   render() {
     return (
