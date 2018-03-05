@@ -20,6 +20,7 @@ class App extends React.Component {
       const boxes = this.state.boxes.slice();
       const randIndex = Math.floor(Math.random() * boxes.length);
       boxes[randIndex] = this.getRandomColor();
+      this.setState({boxes});
     }, 300);
   }
   render() {
