@@ -15,6 +15,10 @@ class App extends React.Component {
     super(props);
     const boxes = Array(NUM_BOXES).fill().map(this.getRandomColor, this);
     this.state = {boxes};
+    
+    setInterval(() => {
+      
+    }, 300);
   }
   render() {
     return (
