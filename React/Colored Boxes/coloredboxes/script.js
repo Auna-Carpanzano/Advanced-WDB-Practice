@@ -1,7 +1,12 @@
 const NUM_BOXES = 32;
 
 const Box = ({color}) => {
-
+  const style = {
+    width: "180px",
+    height: "180px",
+    display: "inline-block",
+    backgroundColor: color
+  }
 }
 
 class App extends React.Component {
