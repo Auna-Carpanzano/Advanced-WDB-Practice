@@ -30,9 +30,12 @@ class App extends React.Component {
   }
   
   render() {
+    const boxes = this.state.boxes.map((color, index) => (
+      <Box key={index} color={color} />
+    ));
     return (
       <div>
-
+        {boxes}
       </div>
     )
   }
