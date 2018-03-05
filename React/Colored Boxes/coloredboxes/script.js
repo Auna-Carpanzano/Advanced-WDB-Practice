@@ -1,5 +1,9 @@
 const NUM_BOXES = 32;
 
+const Box = ({color}) => {
+
+}
+
 class App extends React.Component {
     constructor(props) {
     super(props);
