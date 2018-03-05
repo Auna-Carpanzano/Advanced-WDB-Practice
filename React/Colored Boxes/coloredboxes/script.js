@@ -23,6 +23,11 @@ class App extends React.Component {
       this.setState({boxes});
     }, 300);
   }
+  
+  getRandomColor() {
+    let colorIndex = Math.floor(Math.random() * this.props.allColors.length);
+  }
+  
   render() {
     return (
       <div>
