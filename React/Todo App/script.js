@@ -13,6 +13,7 @@ class Form extends React.Component {
   }
   handleSubmit(e) {
     e.preventDefault();
+    const todos = [...this.state.todos, this.state.newTodo];
   }
   render() {
     return (
