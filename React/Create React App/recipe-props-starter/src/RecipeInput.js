@@ -34,7 +34,7 @@ class RecipeInput extends Component {
         className="recipe-form-line"
         key={`ingredient-${i}`}
       >
-        <label>
+        <label>{i+1}
           <input
             type="text"
             name={`ingredient-${i}`}
