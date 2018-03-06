@@ -14,10 +14,16 @@ class RecipeInput extends Component {
       img: ""
     };
     this.handleChange = this.handleChange.bind(this);
+    this.handleNewIngredient = this.handleNewIngredient.bind(this);
   }
 
   handleChange(e) {
     this.setState({[e.target.name]: e.target.value});
+  }
+
+  handleNewIngredient(e) {
+    const {ingredients} = this.state;
+    this.setState({ingredients: [...ingredients, ""]});
   }
 
   render() {
