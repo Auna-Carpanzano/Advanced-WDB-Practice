@@ -52,6 +52,32 @@ class RecipeInput extends Component {
               onChange={this.handleChange}
             />
           </div>
+          <label
+          htmlFor="recipe-instructions-input"
+          style={{marginTop: "5px"}}
+          >
+            Instructions
+          </label>
+          <textarea
+            key="instructions"
+            id="recipe-instructions-input"
+            type="Instructions"
+            name="instructions"
+            rows="8"
+            cols="50"
+            autoComplete="off"
+            value={instructions}
+            onChange={this.handleChange}
+          />
+          {inputs}
+          <button 
+            type="button"
+            onClick={this.handleNewIngredient}
+            className="buttons"
+          >
+            +
+          </button>
+
         </form>
       </div>
     )
