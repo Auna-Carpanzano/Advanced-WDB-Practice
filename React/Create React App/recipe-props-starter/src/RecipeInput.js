@@ -68,9 +68,9 @@ class RecipeInput extends Component {
         </label>
       </div>
     ));
-    return(
+    return (
       <div className="recipe-form-container">
-        <form className="recipe-form" onSubmit={this.handleSubmit>
+        <form className='recipe-form' onSubmit={this.handleSubmit}>
           <button
             type="button"
             className="close-button"
@@ -78,62 +78,59 @@ class RecipeInput extends Component {
           >
             X
           </button>
-          <div className="recipe-form-line">
-            <label htmlFor="recipe-title-input">Title</label>
+          <div className='recipe-form-line'>
+            <label htmlFor='recipe-title-input'>Title</label>
             <input
-              id="recipe-title-input"
-              key="title"
-              name="title"
-              type="text"
+              id='recipe-title-input'
+              key='title'
+              name='title'
+              type='text'
               value={title}
               size={42}
               autoComplete="off"
-              onChange={this.handleChange}
-            />
+              onChange={this.handleChange}/>
           </div>
           <label
-          htmlFor="recipe-instructions-input"
-          style={{marginTop: "5px"}}
+            htmlFor='recipe-instructions-input'
+            style={{marginTop: '5px'}}
           >
             Instructions
           </label>
           <textarea
-            key="instructions"
-            id="recipe-instructions-input"
-            type="Instructions"
-            name="instructions"
-            rows="8"
-            cols="50"
-            autoComplete="off"
+            key='instructions'
+            id='recipe-instructions-input'
+            type='Instructions'
+            name='instructions'
+            rows='8'
+            cols='50'
+            autoComplete='off'
             value={instructions}
-            onChange={this.handleChange}
-          />
+            onChange={this.handleChange}/>
           {inputs}
-          <button 
+          <button
             type="button"
             onClick={this.handleNewIngredient}
             className="buttons"
           >
             +
           </button>
-          <div className="recipe-form-line">
-            <label htmlFor="recipe-img-input">Image Url</label>
+          <div className='recipe-form-line'>
+            <label htmlFor='recipe-img-input'>Image Url</label>
             <input
-              id="recipe-img-input"
-              type="text"
-              placeholder=""
-              name="img"
+              id='recipe-img-input'
+              type='text'
+              placeholder=''
+              name='img'
               value={img}
               size={36}
-              autoComplete="off"
-              onChange={this.handleChange}
-            />
+              autoComplete='off'
+              onChange={this.handleChange} />
           </div>
           <button
             type="submit"
             className="buttons"
-            style={{alignSelf: "flex-end", marginRight: 0}}
-            >
+            style={{alignSelf: 'flex-end', marginRight: 0}}
+          >
             SAVE
           </button>
         </form>
