@@ -32,6 +32,9 @@ class Form extends React.Component {
             value={newTodo}
             onChange={(e) => this.setState({[e.target.name]: e.target.value})}
           />
+        <button type="submit">
+          SAVE
+        </button>
         </form>
         <div>
           <ol>
