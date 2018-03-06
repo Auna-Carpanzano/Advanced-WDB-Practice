@@ -11,21 +11,21 @@ class RecipeApp extends Component {
     this.state = {
       recipes: [
         {
-          id: 1,
+          id: 0,
           title: "Spaghetti",
           instructions: "Open jar of Spaghetti sauce.  Bring to simmer.  Boil water.  Cook pasta until done.  Combine pasta and sauce",
           ingredients: ["pasta", "8 cups water", "1 box spaghetti"],
           img: "https://images.unsplash.com/photo-1518675219903-c682c4b16b1d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=28d9da11bbd83f4bab4cbeb1a8c6ad0b&auto=format&fit=crop&w=800&q=80"
         },
         {
-          id: 2,
+          id: 1,
           title: "Milkshake",
           instructions: "Combine ice cream and milk.  Blend until creamy",
           ingredients: ["2 Scoops Ice cream", "8 ounces milk"],
           img: "https://images.unsplash.com/photo-1472555794301-77353b152fb7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b83af9eebc5b20ce552e75f917d3009d&auto=format&fit=crop&w=677&q=80"
         },
         {
-          id: 3,
+          id: 2,
           title: "Avocado Toast",
           instructions: "Toast bread.  Slice avocado and spread on bread.  Add salt, oil, and pepper to taste.",
           ingredients: ["2 slices of bread", "1 avocado", "1 tablespoon olive oil", "1 pinch of salt", "pepper"],
@@ -35,6 +35,17 @@ class RecipeApp extends Component {
       nextRecipeId: 3,
     }
   }
+  
+  handleSave(recipe) {
+    this.setState((prevState, props) => {
+      const newRecipe = {...recipe, id: this.state.nextRecipeId};
+      return {
+        nextRecipeId: prevState.nextRecipeId + 1,
+        recipes: [...this.state.recipes, newRecipe]
+      }
+    });
+  }
+  
   render() {
     return (
       <div className="App">
