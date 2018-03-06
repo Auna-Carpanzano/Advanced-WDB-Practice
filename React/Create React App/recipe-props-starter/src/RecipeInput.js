@@ -1,6 +1,9 @@
 import React, {Component} from "react";
 
 class RecipeInput extends Component {
+  static defaultProps = {
+    onClose() {}
+  }
   constructor(props) {
     super(props);
     this.state = {
@@ -12,6 +15,7 @@ class RecipeInput extends Component {
   }
   render() {
     const {title, instructions, ingredients, img} = this.state;
+    const {onClose} = this.props;
     let inputs = ingredients.map((ing, i) => (
       <div
         className="recipe-form-line"
