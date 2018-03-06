@@ -24,6 +24,8 @@ class Form extends React.Component {
     return (
       <div>
         <h1>Todo App</h1>
+        <form onSubmit={this.handleSubmit}>
+        </form>
         <div>
           <ol>
             {todos}
