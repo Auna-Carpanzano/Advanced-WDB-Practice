@@ -8,7 +8,10 @@ class RecipeInput extends Component {
       instructions: "",
       ingredients: [""],
       img: ""
-    }
+    };
+  }
+  render() {
+    const {title, instructions, ingredients, img} = this.state;
   }
 }
 
