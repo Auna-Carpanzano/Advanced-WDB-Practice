@@ -9,6 +9,7 @@ class Form extends React.Component {
       todos: [],
       newTodo: ""
     };
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
   render() {
     return (
