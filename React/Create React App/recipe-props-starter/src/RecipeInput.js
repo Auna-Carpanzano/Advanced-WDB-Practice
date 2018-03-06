@@ -12,7 +12,13 @@ class RecipeInput extends Component {
       ingredients: [""],
       img: ""
     };
+    this.handleChange = this.handleChange.bind(this);
   }
+
+  handleChange(e) {
+    this.setState({[e.target.name]: e.target.value});
+  }
+
   render() {
     const {title, instructions, ingredients, img} = this.state;
     const {onClose} = this.props;
