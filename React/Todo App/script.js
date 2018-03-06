@@ -22,7 +22,14 @@ class Form extends React.Component {
       <TodoItem key={i} text={t} />                       
     ));
     return (
-      
+      <div>
+        <h1>Todo App</h1>
+        <div>
+          <ol>
+            {todos}
+          </ol>
+        </div>
+      </div>
     )
   }
 }
