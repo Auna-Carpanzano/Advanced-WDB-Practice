@@ -14,6 +14,7 @@ class Form extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     const todos = [...this.state.todos, this.state.newTodo];
+    this.setState({todos, newTodo: ""});
   }
   render() {
     return (
