@@ -17,6 +17,7 @@ class Form extends React.Component {
     this.setState({todos, newTodo: ""});
   }
   render() {
+    const {newTodo} = this.state;
     return (
       
     )
