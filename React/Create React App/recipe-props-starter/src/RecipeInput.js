@@ -3,7 +3,8 @@ import "./RecipeInput.css";
 
 class RecipeInput extends Component {
   static defaultProps = {
-    onClose() {}
+    onClose() {},
+    onSave() {}
   }
   constructor(props) {
     super(props);
@@ -57,7 +58,7 @@ class RecipeInput extends Component {
     ));
     return(
       <div className="recipe-form-container">
-        <form className="recipe-form" onSubmit={() => {}}>
+        <form className="recipe-form" onSubmit={this.handleSubmit>
           <button
             type="button"
             className="close-button"
