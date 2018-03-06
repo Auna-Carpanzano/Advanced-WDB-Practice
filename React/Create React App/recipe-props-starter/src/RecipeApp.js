@@ -8,7 +8,7 @@ class RecipeApp extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      recipe: [
+      recipes: [
         {
           title: "Spaghetti",
           instructions: "Open jar of Spaghetti sauce.  Bring to simmer.  Boil water.  Cook pasta until done.  Combine pasta and sauce",
@@ -34,7 +34,7 @@ class RecipeApp extends Component {
     return (
       <div className="App">
         <Navbar />
-        <RecipeList />
+        <RecipeList recipes={this.state.recipes} />
       </div>
     );
   }
