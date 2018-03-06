@@ -34,6 +34,7 @@ class RecipeApp extends Component {
       ],
       nextRecipeId: 3,
     }
+    this.handleSave = this.handleSave.bind(this);
   }
   
   handleSave(recipe) {
@@ -50,7 +51,7 @@ class RecipeApp extends Component {
     return (
       <div className="App">
         <Navbar />
-        <RecipeInput />
+        <RecipeInput onSave={this.handleSave} />
         <RecipeList recipes={this.state.recipes} />
       </div>
     );
