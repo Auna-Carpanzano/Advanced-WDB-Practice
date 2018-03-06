@@ -35,7 +35,7 @@ class RecipeInput extends Component {
     ));
     return(
       <div className="recipe-form-container">
-        <form className="recipe-form" onSubmit={this.handleSubmit}>
+        <form className="recipe-form" onSubmit={() => {}}>
           <button
             type="button"
             className="close-button"
