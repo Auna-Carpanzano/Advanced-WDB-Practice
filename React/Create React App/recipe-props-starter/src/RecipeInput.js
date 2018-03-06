@@ -12,6 +12,20 @@ class RecipeInput extends Component {
   }
   render() {
     const {title, instructions, ingredients, img} = this.state;
+    let inputs = ingredients.map((ing, i) => (
+      <div>
+        <label>
+          <input
+            type="text"
+            name={`ingredient-${i}`}
+            value={ing}
+            size={45}
+            autoComplete="off"
+            placeholder="Ingredient"
+            onChange={() => {}} />
+        </label>
+      </div>
+    ));
   }
 }
 
