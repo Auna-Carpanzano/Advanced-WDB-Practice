@@ -18,6 +18,9 @@ class Form extends React.Component {
   }
   render() {
     const {newTodo} = this.state;
+    const todos = this.state.todos.map((t, i) => (
+      <TodoItem key={i} text={t} />                       
+    ));
     return (
       
     )
