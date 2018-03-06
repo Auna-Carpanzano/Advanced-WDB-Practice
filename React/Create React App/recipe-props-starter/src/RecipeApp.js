@@ -51,7 +51,7 @@ class RecipeApp extends Component {
   }
   
   onDelete(id) {
-    const recipies = this.state.recipes.filter(r => r.id !== id);
+    const recipes = this.state.recipes.filter(r => r.id !== id);
     this.setState({recipes});
   }
   
