@@ -39,6 +39,19 @@ class RecipeInput extends Component {
           >
             X
           </button>
+          <div className="recipe-form-line">
+            <label htmlFor="recipe-title-input">Title</label>
+            <input
+              id="recipe-title-input"
+              key="title"
+              name="title"
+              type="text"
+              value={title}
+              size={42}
+              autoComplete="off"
+              onChange={this.handleChange}
+            />
+          </div>
         </form>
       </div>
     )
